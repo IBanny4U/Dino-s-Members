@@ -1,0 +1,152 @@
+
+.mainCatagori{
+        color:rgb(255, 255, 255);
+        font-weight: bold;
+        text-align: center;
+        font-style: italic;
+        text-shadow: 1px 1px 2px rgb(255, 0, 0);
+        font-size: 50px;
+        margin: 20px 10px;
+        
+}
+
+.intro{
+    display:grid;
+    margin-top:0;
+    background-image: linear-gradient(to left, violet,pink,aqua,rgb(229, 255, 0));
+    border:black solid;
+    transition: 0.1s;
+
+}
+.NamingSizing{
+   padding-left:25px; 
+   margin-top:0px;
+    color: #3d3930;
+    display: grid;
+    grid-template-columns:repeat(4,2fr);
+    
+
+
+}
+li::marker{
+    content: "🦖" ;
+}
+.dinorun{
+    height: 20px;
+    width: 20px;
+}
+.bcg{
+    background-color: rgb(248, 196, 255);
+}
+
+.four2{
+    border: solid rgb(110, 110, 110);
+    display:grid;
+    background-color: #D6F1F8;
+    grid-template-columns: repeat(6,1fr);
+}
+.img{
+    width:130px;
+    height: 130px;
+}
+.Dino{
+   background-image: linear-gradient(45deg, #99A2A2,rgb(224, 132, 183),aqua);
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.Each4to{
+    width: 95%;
+    height: 100%;
+}
+.DinoDetails{
+  
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.EachDeatils{
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    background-color: rgb(83, 83, 73);
+    height: 100px;
+    margin: 5px;
+    border: 2px solid black;
+    
+   
+
+}
+p{
+    color: rgb(0, 0, 0);
+}
+
+.btn{
+    display: inline-block;
+    background-color: rgb(186, 239, 248);
+    color: rgb(0, 0, 0);
+    text-decoration:none;
+    width: 100px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+    font-style: italic;
+    transition: 1s;
+}
+
+.btn:hover{
+    background-color: #56828f;
+    color: white;
+   
+    
+}
+
+.footpage{
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(to right,rgb(255, 255, 255), #D6f1f8);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-style: italic;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgb(255, 238, 238);
+}
+.cheerdino{
+    width:300px;
+    height:300px;
+}
+.footsizing{
+    width:300px;
+    height:300px;
+ 
+}
+.bdr{
+    border: 1px solid black;
+    height: 300px;
+    background-color: #e9e4d9;
+}
+
+.rightbtn{
+    float:right;
+    border-radius:5px ;
+    height:35px;
+    transition: 0.6s;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-style: italic;
+    background-color:  rgb(186, 239, 248);
+    margin-top: 2px;
+
+}
+.rightbtn:hover{
+    cursor: pointer;
+    background-image: linear-gradient(45deg, #99A2A2,rgb(224, 132, 183),aqua);
+    font-size: 14.5px;
+    color: rgb(255, 255, 255);
+    
+}
